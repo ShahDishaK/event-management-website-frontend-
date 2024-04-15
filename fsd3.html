@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <!-- for fas fa image -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-HKbgr34o+uLl5p3Wm+RXXMpVfRFM5NJutkdyyEsJ1bc9t+eTz41v9HGg3Y7Y/Wa9MGcQr+J2m8cwemrSTUzgjw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="script.js">
+<style>
+    body{
+        background: linear-gradient(to right,white, #e8dcfc);
+    }
+    .container{
+        width:100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+    }
+    .card{
+        width:450px;
+        height: 200px;
+        position:relative;
+        overflow: hidden;
+    }
+    .card>img{
+        width: 100%;
+        height: 100%;
+    }
+    .card>h3{
+        font-weight: bolder;
+    }
+    .content{
+        position: absolute;
+        bottom:-120px;
+        left:10px;
+        color: antiquewhite;
+        transition: 0.3s;
+        font-weight: bolder ;
+        margin-left: 2px;
+    }
+    .card:hover .content{
+        bottom: 10px;
+        background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    }
+    
+</style>
+
+</head>
+<body id="bgc">
+   
+     
+<nav class="navbar navbar-expand-sm navbar-dark" >
+    <div class="container-fluid">
+        
+        <div class="navbar-brand">
+            <div id="title">Graceful Gatherings</div>
+            <div class="theme-toggler">
+                <div class="toggle-button">
+                    
+                   <img src="daynight.png" alt="" onclick="f1()">
+        
+        
+                </div></div>
+        </div>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#link">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="link">
+            <ul class="navbar-nav" style="color:black">
+                <li class="nav-item "><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="gallarycheck.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#price" class="nav-link">Price</a></li>
+                <li class="nav-item"><a href="#review" class="nav-link">Review</a></li>
+                <li class="nav-item"><a href="#contactUs" class="nav-link">contact Us</a></li>
+
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid d-flex dc" style="padding-left: 200px;" >
+    <img src="LogoFinal.png" class="logo" alt="Not found" style="height:10%;width:10% ;" >
+    <span style="justify-content: center;" id="top">Elegance in every gathering, 
+    </span><br>
+    <span style="justify-content: center" id="top"><br>grace in every detail</span>
+</div>  
+<section class="home" id="home" style="padding:20px">
+    <div>
+    <div class="swiper-container home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="caro9.jpg" alt="Wedding Image 1" class="swiper-image" style="width: 100%;height: 100%; ">
+            </div>
+            <div class="swiper-slide">
+                <img src="caro14.png" alt="Carousel Image 2" class="swiper-image" style="width: 100%;height: 100%; ">
+            </div>
+            <div class="swiper-slide">
+                <img src="caro6.jpg" alt="Carousel Image 3" class="swiper-image"style="width: 100%;height: 100%; " >
+            </div>
+            <div class="swiper-slide">
+                <img src="caro7.jpg" alt="Carousel Image 3" class="swiper-image"style="width: 100%;height: 100%; " >
+            </div>
+            <div class="swiper-slide">
+                <img src="caro10.avif" alt="Carousel Image 3" class="swiper-image"style="width: 100%;height: 100%; " >
+            </div>
+            <div class="swiper-slide">
+                <img src="caro1.jpg" alt="Carousel Image 3" class="swiper-image"style="width: 100%;height: 100%; " >
+            </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</div>
+
+
+
+<section class="service" id="service">
+    <div class="d-flex justify-content-center">
+    <h1 class="headingService dc" >OurServices</h1></div>
+    
+        <!-- <div class="container"> -->
+            <div class="row">
+            <div class="card col-sm-6" style="margin: 3px;background-image: url('venuselection.jpg'); background-size: cover;">
+                <!-- <img src="venuselection.jpg" alt="" height="10%" width="10%"> -->
+                <div class="content">
+                    <h3>Venue Selection</h3>
+                    <p>Selecting the best venue is paramount in event management, ensuring it meets all requirements and enhances the overall experience.</p>
+                </div>
+            </div>
+            <div class="card col-sm-6" style="margin: 3px;background-image: url('entertainment.jpg'); background-size: cover;">
+                <!-- <img src="entertainment.jpg" alt="" height="10%" width="10%"> -->
+                <div class="content">
+                    <h3>Entertainment</h3>
+                    <p>providing captivating entertainment is crucial, ensuring guests are engaged and creating memorable experiences.</p>
+                </div>
+            </div>
+            <div class="card col-sm-6" style="margin: 3px;background-image: url('food.jpg'); background-size: cover;">
+                <!-- <img src="food.jpg" alt="" height="10%" width="10%"> -->
+                <div class="content">
+                    <h3>Food and Drinks</h3>
+                    <p> impeccable food and drink services are essential, catering to diverse tastes and dietary preferences with quality and creativity.</p>
+                </div>
+            </div><div class="card col-sm-6" style="margin: 3px;background-image: url('phere.png'); background-size: cover;">
+                <!-- <img src="phere.png" alt="" height="10%" width="10%"> -->
+                <div class="content">
+                    <h3>Photoes and Videos</h3>
+                    <p>proficiency in photography and videography is essential, capturing moments creatively while preserving memories effectively.</p>
+                </div>
+            </div>
+            <div class="card col-sm-6" style="margin: 3px;background-image: url('invicard.jpg'); background-size: cover;">
+                <!-- <img src="invicard.jpg" alt="" height="10%" width="10%"> -->
+                <div class="content">
+                    <h3>Invitation Card</h3>
+                    <p>Event management involves carefully coordinating decoration and invitation card designs, incorporating themes, colors, fonts, and imagery seamlessly.</p>
+                </div>
+            </div>
+            <div class="card col-sm-6" style="margin: 3px;background-image: url('decoration.jpg'); background-size: cover;">
+                <!-- <img src="decoration.jpg" alt="" height="10%" width="10%"> -->
+                <div class="content">
+                    <h3>Decoration</h3>
+                    <p>In event management, we meticulously plan decoration, integrating themes, lighting, centerpieces, drapery, and other embellishments.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div  style="margin-left: 5%;display: flex;justify-content: center;text-align: center;"><h1  class="dc">AboutUs</h1></div>
+
+<aside style="z-index: 0px;position: relative;" class="d-flex justify-content-center" id="about">
+    <div  style="margin-left: 5%;display: flex;justify-content: center;text-align: center;"></div>
+    
+    <div style="margin-top: 5%;">
+        <img src="owner.jpg" alt="" height="800vh" width="400vh" style="padding-top: 1%;">
+        
+    </div>
+    
+    <div id="AboutHidden" class="responsive-div d-flex justify-content-center" style="padding:1%;font-size: xx-large;">
+        <h3 style="font-style: italic;">              CYRIELLE MOHARA</h3><br>
+             Cyrielle Mohara, the founder & CEO<br>
+        at Graceful Getherings is a French events producer <br>
+        with 10 years experience in luxury event <br>
+                    planning. <br><br><br>
+
+        She speaks fluent French, English and <br>
+        Mandarin and is often invited as a speaker <br>
+        for weddings industry conferences and <br>
+        entrepreneurs' conferences. <br>
+        Contact Us:9313345379 <br>
+        Email:shahdisha66@gmail.com <br>
+        <!-- <button class="btn btn-primary" onclick="window.location.href = 'portfolio.html';">View Portfolio</button> -->
+        <!-- <div>Contact us:</div> -->
+        <button class="btn btn-primary" onclick="window.open('video.html', '_blank');">View Portfolio</button>
+
+ 
+    </div>
+  
+    
+</aside>
+
+<section id="price" style="margin-top: 5%;">
+    <div class="d-flex justify-content-center dc">
+       <h1 class="dc">OurPrices</h1> 
+</div>
+    <div class=" row d-flex justify-content-evenly align-content-around" >
+        <div class="col-md-3 priceHover priceHover2">
+            <div class="priceImages"><img src="birthprice.png" alt="" height="100vh"></div>
+            <div class="priceImages"><h3 class="title">for birthday </h3></div>
+            <div class="priceImages"><h3 class="price">$250.99</h3></div>
+            <div class="priceImages"><ul>
+                <li><i>full services</i></li>
+                <li><i>decorations</i></li>
+                <li><i>music and photoes</i></li>
+                <li><i>food and drinks</i></li>
+                <li><i>invitation card</i></li>
+            </ul></div>
+<a href="#q" class="btn btn-dark" >check out</a>
+        </div>
+        <div class="col-md-3 priceHover">
+            <div class="priceImages"><img src="weddingPrice.png" alt="" height="100vh"></div>
+            
+          <div class="priceImages">  <h3 class="title">for wedding </h3></div>
+          <div class="priceImages"> <h3 class="price">$2500.89</h3></div>
+            <div class="priceImages"><ul>
+                <li><i>full services</i></li>
+                <li><i>decorations</i></li>
+                <li><i>music and photoes</i></li>
+                <li><i>food and drinks</i></li>
+                <li><i>invitation card</i></li>
+            </ul></div>
+<a href="#q" class="btn btn-dark ">check out</a>
+        </div>
+        <div class="col-md-3 priceHover priceHover1">
+            <div class="priceImages"><img src="Party.png" alt="" height="100vh"></div>
+           
+            <div class="priceImages"><h3 class="title">for party </h3></div>
+            <div class="priceImages"><h3 class="price">$650.90</h3></div>
+            <div class="priceImages"><ul>
+                <li><i>full services</i></li>
+                <li><i>decorations</i></li>
+                <li><i>music and photoes</i></li>
+                <li><i>food and drinks</i></li>
+                <li><i>invitation card</i></li>
+            </ul></div>
+<a href="#q" class="btn btn-dark">check out</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="review">
+   <div class="d-flex justify-content-center "> <h1 class="dc" >KindWords</h1></div>
+    <div class="row">
+        <div class="col-sm-4 image-container" style="height:200px;margin-bottom: 1%;">
+            <img src="cli2.jpg" alt="" style="height:100%; width:100%;">
+            <div class="overlay-text">The event management team received high praise for flawless execution and delivering a memorable experience.</div>
+        </div>
+        <div class="col-sm-4 image-container" style="height:200px;">
+            <img src="cli3.jpg" alt="" style="height:100%; width:100%;">
+            <div class="overlay-text">The event management's quality work and seamless execution were highly praised by attendees and participants alike.</div>
+            
+        </div>
+        <div class="col-sm-4 image-container" style="height:200px;">
+            <img src="cli4.jpg" alt="" style="height:100%; width:100%;">
+            <div class="overlay-text">Attendees praised the event management for its outstanding services, enhancing the overall experience of the event.</div>
+        </div>
+    </div>
+</section>
+
+<section class="contact dc" id="contactUs">
+    <h2>Contact Us</h2>
+    <form action="" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" >
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+</body>
+</html>

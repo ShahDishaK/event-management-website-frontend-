@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Gallery</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+crossorigin="anonymous"></script>
+<style>
+  /* Style for the gallery container */
+  .gallery .gal{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+  }
+
+  /* Style for each image */
+  .gallery .gal img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  /* Hover effect on images */
+  .gallery .gal img:hover {
+    transform: scale(1.25);
+  }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark d-flex justify-content-center">
+        <!-- <div class="container-fluid"> -->
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a href="#Party" class="nav-link" >Party</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#Birthday" class="nav-link">Birthday</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#Wedding" class="nav-link" >Wedding</a>
+                </li>
+               
+            </ul>
+        </div>
+    </nav>
+    <div class="header" id="GalleryHeader" style="margin-bottom: 1%;">
+      <a href="fsd3.html">
+          <img src="home.gif" alt="" id="home">
+      </a>
+  </div>
+    <div class="gallery">
+      
+      <!-- <section id="Party">
+        <h3 style="display: flex; justify-content: center;text-align: center;">Party</h3>
+  <img src="event1.jpg" alt="Event Image 3" style="display: flex;float: right">
+  <img src="entertainment.jpg" alt="Event Image 2">
+
+</section><br></div> -->
+<h3 style="display: flex; justify-content: center;text-align: center;">Party</h3>
+
+<section id="Party" class="gal">
+  <img src="party1.jpg" alt=""><img src="entertainment.jpg" alt=""><img src="7.jpg" alt="">
+  <img src="party3.jpg" alt="">
+  <img src="party10.jpg" alt=""><img src="party4.jpg" alt=""><img src="party6.jpg" alt=""><img src="party7.webp" alt="">
+  <img src="party8.jpg" alt=""><img src="party9.jpg" alt="">
+
+
+</section>
+<h3 style="display: flex; justify-content: center;text-align: center;">Birthday</h3>
+
+<section id="Birthday" class="gal">
+  <img src="baby.jpg" alt="" style=""><img src="4.jpg" alt=""><img src="9.jpg" alt="">
+  <img src="bir.jpg" alt=""><img src="birthday.jpg" alt="">
+  <img src="b1.jpg" alt=""><img src="b2.jpg" alt=""><img src="b6.jpg" alt=""><img src="b4.jpg" alt=""><img src="b5.jpg" alt="">
+
+
+</section>
+
+<h3 style="display: flex; justify-content: center;text-align: center;">Wedding</h3>
+
+<section id="Wedding" class="gal">
+  <img src="w11.avif" alt=""><img src="w12.jpg" alt=""><img src="w3.webp" alt=""><img src="w4.webp" alt=""><img src="w13.webp" alt=""><img src="w6.webp" alt=""><img src="w13.jpg" alt=""><img src="w14.jpg" alt=""><img src="w9.jpg" alt=""><img src="w10.avif" alt="">
+
+
+</section>
+  <!-- Add more images as needed -->
+</div>
+
+</body>
+</html>
